@@ -1,0 +1,106 @@
+.App {
+  margin: auto 12%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.users{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 25px;
+  margin-left: 3%;
+ 
+}
+.users-details{
+  margin-left: 2%;
+}
+.user-data{
+  display: flex;
+  margin-top: 1%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.remove{
+  margin-left: 1%;
+  font-size: large;
+  width: 7%;
+  color: white;
+  border-radius: 5%;
+  background-color: lightcoral;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.add-user{
+margin-left: 0.2%;
+   width: 97%;
+   height: 40px;
+  border: none;
+   box-shadow: skyblue 0px 1px 4px, skyblue 0px 0px 0px 3px;
+}
+.add-user:focus{
+ outline: skyblue;
+}
+
+
+.add{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  width: 100%;
+  margin-left: 3%;
+
+}
+.Addbutton{
+  background-color: rgb(144, 238, 144);
+  border-radius: 10%;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 2%;
+  width:5%;
+  height: 50px;
+}
